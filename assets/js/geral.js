@@ -60,9 +60,9 @@ function toggleBackgroundImage() {
     isDarkMode = !isDarkMode; // Alternar entre escuro e claro
 
     if (isDarkMode) {
-        button.style.backgroundImage = "url('../assets/images/modo_escuro.svg')";
+        button.style.backgroundImage = "url('assets/images/modo_escuro.svg')";
     } else {
-        button.style.backgroundImage = "url('../assets/images/modo_claro.svg')";
+        button.style.backgroundImage = "url('assets/images/modo_claro.svg')";
     }
 }
 
@@ -84,10 +84,10 @@ $('.caixa-container button.btpluscaixa').click(function(){
   let caixa = $(this).prev()
   if(caixa.hasClass('aberta')){
       caixa.removeClass('aberta')
-      $(this).css('background-image', 'url("../assets/images/bt_mais.svg")')
+      $(this).css('background-image', 'url("assets/images/bt_mais.svg")')
   } else {
       caixa.addClass('aberta')
-      $(this).css('background-image', 'url("../assets/images/bt_menos.svg")')
+      $(this).css('background-image', 'url("assets/images/bt_menos.svg")')
   }
 })
 
