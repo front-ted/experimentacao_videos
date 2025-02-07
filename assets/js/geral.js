@@ -91,3 +91,18 @@ $('.caixa-container button.btpluscaixa').click(function(){
   }
 })
 
+
+$('.modal-header button').click(function(){
+  const stopVideos = () => {
+    document.querySelectorAll('iframe').forEach(v => { v.src = v.src });
+    document.querySelectorAll('video').forEach(v => { v.pause() });
+  };
+  stopVideos();
+})
+$('.modal-footer button').click(function(){
+  const stopVideos = () => {
+    document.querySelectorAll('iframe').forEach(v => { v.src = v.src });
+    document.querySelectorAll('video').forEach(v => { v.pause() });
+  };
+  stopVideos();
+})
