@@ -1,8 +1,8 @@
 body{
-    background: url('../img/bg_dir.png') no-repeat top 30% right 0px,
-                url('../img/bg_esq.png') no-repeat top 75% left 0px,
+    background: url('../img/bg_dir.png') no-repeat top 35% right 0px,
+                url('../img/bg_esq.png') no-repeat top 85% left 0px,
                 url('../img/bg.png') fixed no-repeat;
-    background-size: 14%, 14%, cover;
+    background-size: 15%, 15%, cover;
 
 }
 
@@ -345,6 +345,15 @@ body{
     transition: opacity 5s ease-in;
     border-radius: 20px;
     z-index: -1;
+}
+
+.bg-cor_primaria{
+    background-color: var(--cor-primaria);
+    color: #fff;
+}
+
+.grafismo::after {
+    background: url(../assets/images/hexagono_ripado.svg) no-repeat;
 }
 
 

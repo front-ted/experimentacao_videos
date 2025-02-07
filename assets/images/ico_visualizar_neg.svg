@@ -10,21 +10,32 @@
       }
 
       .cls-2 {
-        fill: url(#Gradiente_sem_nome_6-2);
+        fill: url(#Gradiente_sem_nome_3);
         stroke-width: 0px;
       }
     </style>
     <linearGradient id="Gradiente_sem_nome_6" data-name="Gradiente sem nome 6" x1="0" y1="43.5" x2="87" y2="43.5" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#5c000f"/>
-      <stop offset=".16" stop-color="#60030e"/>
-      <stop offset=".33" stop-color="#6c0d0d"/>
-      <stop offset=".5" stop-color="#801f0b"/>
-      <stop offset=".66" stop-color="#9c3708"/>
-      <stop offset=".83" stop-color="#c15604"/>
-      <stop offset="1" stop-color="#ed7c00"/>
-      <stop offset="1" stop-color="#ee7d00"/>
+      <stop offset="0" stop-color="#e69732"/>
+      <stop offset=".13" stop-color="#e19533"/>
+      <stop offset=".27" stop-color="#d59037"/>
+      <stop offset=".4" stop-color="#c1893f"/>
+      <stop offset=".54" stop-color="#a57e49"/>
+      <stop offset=".68" stop-color="#807057"/>
+      <stop offset=".81" stop-color="#536067"/>
+      <stop offset=".95" stop-color="#1f4c7a"/>
+      <stop offset="1" stop-color="#094483"/>
     </linearGradient>
-    <linearGradient id="Gradiente_sem_nome_6-2" data-name="Gradiente sem nome 6" x1="9.92" y1="44.26" x2="76.65" y2="44.26" xlink:href="#Gradiente_sem_nome_6"/>
+    <linearGradient id="Gradiente_sem_nome_3" data-name="Gradiente sem nome 3" x1="9.92" y1="44.26" x2="76.65" y2="44.26" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e69732"/>
+      <stop offset=".08" stop-color="#c38a3e"/>
+      <stop offset=".2" stop-color="#927750"/>
+      <stop offset=".33" stop-color="#686760"/>
+      <stop offset=".46" stop-color="#455a6c"/>
+      <stop offset=".59" stop-color="#2b5076"/>
+      <stop offset=".72" stop-color="#18497d"/>
+      <stop offset=".86" stop-color="#0c4581"/>
+      <stop offset="1" stop-color="#094483"/>
+    </linearGradient>
   </defs>
   <g id="Camada_1-2" data-name="Camada 1">
     <g>

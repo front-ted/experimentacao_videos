@@ -15,7 +15,7 @@
       }
 
       .cls-3 {
-        fill: url(#Gradiente_sem_nome_8);
+        fill: url(#Gradiente_sem_nome_19);
       }
     </style>
     <mask id="mask" x="-45.83" y="-27.46" width="223.29" height="225.68" maskUnits="userSpaceOnUse">
@@ -34,9 +34,9 @@
         <rect class="cls-2" x="58.16" y="100.84" width="189.68" height="7.9" transform="translate(17.47 231.36) rotate(-77.45)"/>
       </g>
     </mask>
-    <linearGradient id="Gradiente_sem_nome_8" data-name="Gradiente sem nome 8" x1="292.5" y1="-1778.59" x2="426.48" y2="-1778.59" gradientTransform="translate(53.2 -1738.71) rotate(10.62) scale(1 -1)" gradientUnits="userSpaceOnUse">
-      <stop offset=".33" stop-color="#b6bfcd"/>
-      <stop offset="1" stop-color="#73f1ff"/>
+    <linearGradient id="Gradiente_sem_nome_19" data-name="Gradiente sem nome 19" x1="292.5" y1="-1778.59" x2="426.48" y2="-1778.59" gradientTransform="translate(53.2 -1738.71) rotate(10.62) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset=".33" stop-color="#094483"/>
+      <stop offset="1" stop-color="#e69732"/>
     </linearGradient>
   </defs>
   <g id="Camada_1-2" data-name="Camada 1">
