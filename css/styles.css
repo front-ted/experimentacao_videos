@@ -1,8 +1,10 @@
 body{
-    background: url('../img/bg_dir.png') no-repeat top 35% right 0px,
-                url('../img/bg_esq.png') no-repeat top 85% left 0px,
+    background: radial-gradient(farthest-corner at 5% 5%, #F39200 0%, transparent 20%) no-repeat,
+                radial-gradient(farthest-corner at 100% 100%, #004588 0%, transparent 30%) no-repeat,
+                url('../img/bg_dir.png') no-repeat top 35% right 0px,
+                url('../img/bg_esq.png') no-repeat top 88% left 0px,
                 url('../img/bg.png') fixed no-repeat;
-    background-size: 15%, 15%, cover;
+    background-size: 100%, 100%, 15%, 15%, cover;
 
 }
 
