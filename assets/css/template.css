@@ -272,7 +272,13 @@ a.botao{text-decoration: none;}
     right: -10px;
     content: '';
 }
-
+.bt-download span, .bt-pdf span {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    width: 100%;
+}
 .bt-download{
     padding-left: 90px;
     padding-right:30px;
@@ -281,33 +287,23 @@ a.botao{text-decoration: none;}
     display: block;
     width: 200px;
 }
-.bt-download::after{
-    content: '';
-    position: absolute;
-    background: url('../images/ico_download.svg') no-repeat;
-    height: 87px;
-    width: 87px;
-    left: -20px;
-    top: -20px;
+.bt-pdf {
+    background: url(../images/ico_pdf.svg) no-repeat;
 }
 
-
-.bt-pdf{
-    padding-left: 90px;
-    padding-right:30px;
-    position: relative;
-    margin: 30px auto;
+.bt-download {
+    background: url(../images/ico_download.svg) no-repeat;
+}
+.bt-download, .bt-pdf {
     display: block;
-    width: 240px;
-}
-.bt-pdf::after{
-    content: '';
-    position: absolute;
-    background: url('../images/ico_pdf.svg') no-repeat;
-    height: 87px;
-    width: 87px;
-    left: -20px;
-    top: -20px;
+    text-decoration: none;
+    text-align: center;
+    width: 230px;
+    height: 135px;
+    position: relative;
+    margin: auto;
+    background-position: top center !important;
+    background-size: 87px !important;
 }
 
 /*modais*/
